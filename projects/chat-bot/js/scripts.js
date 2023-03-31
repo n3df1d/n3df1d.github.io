@@ -77,7 +77,7 @@ $(document).ready(() => {
     }
     
     
-    $.getJSON('/js/answers.json', (data) => {
+    $.getJSON('js/answers.json', (data) => {
         getChat('bot', '', data.hello, 3000, () => {
             getChat('bot', data.whats_your_name.placeholder,  data.whats_your_name.val)
         })
