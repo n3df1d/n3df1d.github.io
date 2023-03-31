@@ -1,0 +1,52 @@
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--bs-gray);
+    border-radius: 20px;
+    transition: background-color .2s ease-in-out;
+}
+
+.block{
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+#chat_dialog{
+    list-style: none;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+#chat_dialog::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+#chat_dialog:hover::-webkit-scrollbar-thumb {
+    background-color: var(--bs-gray);    /* цвет бегунка */
+    border-radius: 20px;
+}
+
+#chat_dialog li{
+    text-align: left;
+}
+
+#chat_dialog span{
+    display: inline-block;
+    max-width: 352px;
+}
+
+#chat_dialog .user{
+    text-align: right;
+    padding-right: 10px;
+}
