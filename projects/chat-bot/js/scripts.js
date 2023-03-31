@@ -33,7 +33,7 @@ $(document).ready(() => {
             $('#input_text').attr('placeholder', '')
 
             setTimeout(() => {
-                $('#chat_dialog').append(`<li class="bot my-3"><span class="text-white bg-secondary rounded-3"><a href="${placeholder}" target="_blank" class=" p-2 px-3 d-flex justify-content-center align-items-center"><img width="50" src="/8681331601536080157.svg" alt="pdf"><h5 class="mx-2">${text}</h5></a></span></li>`)
+                $('#chat_dialog').append(`<li class="bot my-3"><span class="text-white bg-secondary rounded-3"><a href="${placeholder}" target="_blank" class=" p-2 px-3 d-flex justify-content-center align-items-center"><img width="50" src="../8681331601536080157.svg" alt="pdf"><h5 class="mx-2">${text}</h5></a></span></li>`)
                 ul.scrollTop(ul.prop('scrollHeight'))
                 $('.text-write').css('display', 'none')
                 next_func()
