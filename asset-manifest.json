@@ -1,17 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6eda04a.css",
-    "main.js": "/static/js/main.4093a233.js",
-    "static/media/undraw_programming.svg": "/static/media/undraw_programming.b6d6fe65c6e46c75c567d7ca0411a199.svg",
-    "static/media/undraw_online_payments.svg": "/static/media/undraw_online_payments.f0bd7f64a4cb3133ce487010709ec81a.svg",
-    "static/media/undraw_time_management.svg": "/static/media/undraw_time_management.0b6a3108f459f578a93d338d71eefb0c.svg",
-    "static/media/undraw_active_support.svg": "/static/media/undraw_active_support.d6ae7020a3d563dbc99f093deafa28dd.svg",
+    "main.css": "/static/css/main.3a917167.css",
+    "main.js": "/static/js/main.4e267d26.js",
     "index.html": "/index.html",
-    "main.c6eda04a.css.map": "/static/css/main.c6eda04a.css.map",
-    "main.4093a233.js.map": "/static/js/main.4093a233.js.map"
+    "main.3a917167.css.map": "/static/css/main.3a917167.css.map",
+    "main.4e267d26.js.map": "/static/js/main.4e267d26.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6eda04a.css",
-    "static/js/main.4093a233.js"
+    "static/css/main.3a917167.css",
+    "static/js/main.4e267d26.js"
   ]
 }
